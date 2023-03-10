@@ -14,3 +14,5 @@ export default function Home(){
 
 //넥스트 js 는 프레임워크라서 pages에서 뭔가를 계속 생성하는 것만 가능하고 나머지는 자유도가 떨어진다.
 
+
+//npm run dev to start
