@@ -9,7 +9,7 @@ export default function Home() {
     (async () => {
       const { results } = await (
         await fetch(
-          `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`
+            '/api/movies'
         )
       ).json();
       setMovies(results);
