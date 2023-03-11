@@ -1,10 +1,9 @@
+import Layout from "../component/Layout";
 import Navbar from "../component/Navbar";
 
 export default function App({Component,pageProps}){
-    return (<div>
-        <Navbar></Navbar>
+    return (<Layout>
         <Component {...pageProps}></Component>
-        <h1>ABOUT</h1>
-    </div>);
+    </Layout>);
 }
 

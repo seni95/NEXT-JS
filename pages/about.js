@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
+import Seo from '../component/Seo'
 
 export default function about() {
   return (
     <div>
-        
+      <Seo title="about"></Seo>
       <h1>ABOUT</h1>
-        
         </div>
   )
 }
