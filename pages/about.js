@@ -4,7 +4,6 @@ import Navbar from '../component/Navbar'
 export default function about() {
   return (
     <div>
-    <Navbar></Navbar>
         
       <h1>ABOUT</h1>
         

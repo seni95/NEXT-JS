@@ -2,7 +2,6 @@ import Navbar from "../component/Navbar";
 
 export default function Home(){
     return (<>
-    <Navbar></Navbar>
     <h1>HOME</h1>
     </>)
 }
