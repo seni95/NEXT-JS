@@ -11,11 +11,8 @@ export default function Home({results}) {
     //일반적인 라우팅 방식
 
     router.push({
-      pathname:`/movies/${id}`,
-      query:{
-        title
-      }
-    },`/movies/${id}`)
+      pathname:`/movies/${title}/${id}`,
+  })
   }
 
   return (
